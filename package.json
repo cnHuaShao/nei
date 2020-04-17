@@ -2,7 +2,7 @@
   "name": "nei",
   "description": "nei platform, for specification definition",
   "scripts": {
-    "build": "npm run mcss & npm run nej",
+    "build": "npm run mcss && npm run nej",
     "start": "node ./bin/nei.js online",
     "dev": "node ./bin/server.js start -m develop",
     "test": "node ./bin/nei.js test",
@@ -18,7 +18,7 @@
     "toolkit"
   ],
   "author": "Netease Cloud Music",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/x-orpheus/nei",
   "bin": {
     "aps": "./bin/nei.js"
@@ -47,7 +47,6 @@
     "mockjs": "^1.0.1-beta3",
     "moment": "^2.18.1",
     "mongodb": "^3.1.1",
-    "morgan": "~1.5.1",
     "mysql": "^2.10.2",
     "nodemailer": "^2.4.1",
     "path-to-regexp": "^1.1.1",
