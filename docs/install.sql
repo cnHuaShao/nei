@@ -688,7 +688,7 @@ CREATE TABLE `interface_testcase` (
     `id`              BIGINT UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '测试用例标识',
     `interface_id`    BIGINT UNSIGNED NOT NULL COMMENT '用例归属接口标识',
     `progroup_id`     INT UNSIGNED NOT NULL COMMENT '归属项目组标识',
-    `host`            VARCHAR(50) NOT NULL DEFAULT '' COMMENT '测试服务器地址',
+    `host`            VARCHAR(500) NOT NULL DEFAULT '' COMMENT '测试服务器地址',
     `state`           TINYINT UNSIGNED NOT NULL DEFAULT 0 COMMENT '测试用例执行状态\n\n0 - 未测试\n1 - 测试通过\n2 - 测试失败',
     `name`            VARCHAR(100) NOT NULL DEFAULT '' COMMENT '测试名称',
     `description`     VARCHAR(500) NOT NULL DEFAULT '' COMMENT '测试描述信息',
